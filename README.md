@@ -2,7 +2,7 @@
 
 Use the Touch Bar app to Mute/Unmute your microphone, or just use the shortcut on any Mac.
 
-[Visit Site](https://imam.dev/) | [Download](https://imam.dev/)
+[Visit Site](https://imam.dev/) | [Download](https://github.com/ImBIOS/remute/releases)
 
 ![touch-bar 2x](https://cloud.githubusercontent.com/assets/2697570/26759775/a67c47e2-4921-11e7-8f71-53b197b5e893.jpg)
 
