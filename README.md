@@ -23,7 +23,7 @@ When you're in a meeting using Hangouts, Skype, Slack, or another voice applicat
 
 If you have any ideas that can help us improve this application, please create a new issue.
 
-You can find approved ideas for future implementation [here](https://github.com/ImBIOS/remute/projects/1)
+You can find approved ideas for future implementation [here](https://github.com/users/ImBIOS/projects/5)
 
 ## How to contribute
 
