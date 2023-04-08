@@ -1,0 +1,4 @@
+
+target 'Remute'
+
+pod 'MASShortcut'

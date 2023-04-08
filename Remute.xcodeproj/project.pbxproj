@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1141FDF21EEFF6DD00CA5B30 /* TouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1141FDF11EEFF6DD00CA5B30 /* TouchButton.m */; };
+		11B86E521EDE9B4D0069D254 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B86E511EDE9B4D0069D254 /* AppDelegate.m */; };
+		11B86E551EDE9B4D0069D254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B86E541EDE9B4D0069D254 /* main.m */; };
+		11B86E581EDE9B4D0069D254 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B86E571EDE9B4D0069D254 /* ViewController.m */; };
+		11B86E5A1EDE9B4D0069D254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B86E591EDE9B4D0069D254 /* Assets.xcassets */; };
+		11B86E5D1EDE9B4D0069D254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B86E5B1EDE9B4D0069D254 /* Main.storyboard */; };
+		11B86E661EDE9BD00069D254 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B86E651EDE9BD00069D254 /* DFRFoundation.framework */; };
+		11B86E981EDEC6720069D254 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B86E921EDEAD1D0069D254 /* ServiceManagement.framework */; };
+		242787BCE98FD2B43E32703E /* libPods-Remute.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2CE39171FE86ACB7F6C386 /* libPods-Remute.a */; };
+		5D4763221F0562E6005E8DB0 /* tray-unactive-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D47631F1F0562E6005E8DB0 /* tray-unactive-white@2x.png */; };
+		5D4763231F0562E6005E8DB0 /* tray-unactive-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D4763201F0562E6005E8DB0 /* tray-unactive-black@2x.png */; };
+		5D4763241F0562E6005E8DB0 /* tray-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D4763211F0562E6005E8DB0 /* tray-active@2x.png */; };
+		5DA60BDA1EFAB9270045BDCF /* statusBarIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA60BD91EFAB9270045BDCF /* statusBarIcon2.png */; };
+		5DA60C531EFBC5400045BDCF /* statusBarIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA60C521EFBC5400045BDCF /* statusBarIcon3.png */; };
+		5DA60C551EFBC5D30045BDCF /* statusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA60C541EFBC5D30045BDCF /* statusBarIcon.png */; };
+		C6ABF3272163A01B00A62E2F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ABF3262163A01B00A62E2F /* CoreAudio.framework */; };
+		C6B6195A2167483F00F06C6B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C6B619592167483F00F06C6B /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11B86E941EDEAD980069D254 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1141FDF01EEFF6DD00CA5B30 /* TouchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchButton.h; sourceTree = "<group>"; };
+		1141FDF11EEFF6DD00CA5B30 /* TouchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchButton.m; sourceTree = "<group>"; };
+		1141FDF51EEFFA0000CA5B30 /* TouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDelegate.h; sourceTree = "<group>"; };
+		11B86E4D1EDE9B4D0069D254 /* Remute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B86E501EDE9B4D0069D254 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11B86E511EDE9B4D0069D254 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11B86E541EDE9B4D0069D254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11B86E561EDE9B4D0069D254 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11B86E571EDE9B4D0069D254 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11B86E591EDE9B4D0069D254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B86E5C1EDE9B4D0069D254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B86E5E1EDE9B4D0069D254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B86E651EDE9BD00069D254 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
+		11B86E671EDE9CDC0069D254 /* TouchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchBar.h; sourceTree = "<group>"; };
+		11B86E921EDEAD1D0069D254 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		11B86E9A1EDECB3F0069D254 /* Remute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Remute.entitlements; sourceTree = "<group>"; };
+		414578CF9911DD8725F6B4BA /* Pods-Remute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remute.release.xcconfig"; path = "Target Support Files/Pods-Remute/Pods-Remute.release.xcconfig"; sourceTree = "<group>"; };
+		4C2CE39171FE86ACB7F6C386 /* libPods-Remute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Remute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D47631F1F0562E6005E8DB0 /* tray-unactive-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-unactive-white@2x.png"; sourceTree = "<group>"; };
+		5D4763201F0562E6005E8DB0 /* tray-unactive-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-unactive-black@2x.png"; sourceTree = "<group>"; };
+		5D4763211F0562E6005E8DB0 /* tray-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-active@2x.png"; sourceTree = "<group>"; };
+		5DA60BD91EFAB9270045BDCF /* statusBarIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon2.png; sourceTree = "<group>"; };
+		5DA60C521EFBC5400045BDCF /* statusBarIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon3.png; sourceTree = "<group>"; };
+		5DA60C541EFBC5D30045BDCF /* statusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon.png; sourceTree = "<group>"; };
+		C6ABF32421639AAD00A62E2F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C6ABF3262163A01B00A62E2F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C6B619592167483F00F06C6B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F4B32D6C79EA22F8E2485919 /* Pods-Remute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remute.debug.xcconfig"; path = "Target Support Files/Pods-Remute/Pods-Remute.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B86E4A1EDE9B4D0069D254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6ABF3272163A01B00A62E2F /* CoreAudio.framework in Frameworks */,
+				11B86E981EDEC6720069D254 /* ServiceManagement.framework in Frameworks */,
+				11B86E661EDE9BD00069D254 /* DFRFoundation.framework in Frameworks */,
+				242787BCE98FD2B43E32703E /* libPods-Remute.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B86E441EDE9B4C0069D254 = {
+			isa = PBXGroup;
+			children = (
+				C6B619592167483F00F06C6B /* .gitignore */,
+				5D4763251F0562F2005E8DB0 /* Graphics */,
+				5DA60C541EFBC5D30045BDCF /* statusBarIcon.png */,
+				5DA60C521EFBC5400045BDCF /* statusBarIcon3.png */,
+				11B86E4F1EDE9B4D0069D254 /* Remute */,
+				11B86E4E1EDE9B4D0069D254 /* Products */,
+				11B86E641EDE9BD00069D254 /* Frameworks */,
+				BB2B16BA4B399BED85E72BBE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		11B86E4E1EDE9B4D0069D254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B86E4D1EDE9B4D0069D254 /* Remute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B86E4F1EDE9B4D0069D254 /* Remute */ = {
+			isa = PBXGroup;
+			children = (
+				5DA60BD91EFAB9270045BDCF /* statusBarIcon2.png */,
+				11B86E9A1EDECB3F0069D254 /* Remute.entitlements */,
+				11B86E501EDE9B4D0069D254 /* AppDelegate.h */,
+				11B86E511EDE9B4D0069D254 /* AppDelegate.m */,
+				11B86E561EDE9B4D0069D254 /* ViewController.h */,
+				11B86E571EDE9B4D0069D254 /* ViewController.m */,
+				11B86E591EDE9B4D0069D254 /* Assets.xcassets */,
+				11B86E5B1EDE9B4D0069D254 /* Main.storyboard */,
+				11B86E5E1EDE9B4D0069D254 /* Info.plist */,
+				11B86E531EDE9B4D0069D254 /* Supporting Files */,
+				11B86E671EDE9CDC0069D254 /* TouchBar.h */,
+				1141FDF01EEFF6DD00CA5B30 /* TouchButton.h */,
+				1141FDF11EEFF6DD00CA5B30 /* TouchButton.m */,
+				1141FDF51EEFFA0000CA5B30 /* TouchDelegate.h */,
+			);
+			path = Remute;
+			sourceTree = "<group>";
+		};
+		11B86E531EDE9B4D0069D254 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11B86E541EDE9B4D0069D254 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11B86E641EDE9BD00069D254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6ABF3262163A01B00A62E2F /* CoreAudio.framework */,
+				C6ABF32421639AAD00A62E2F /* AVFoundation.framework */,
+				11B86E921EDEAD1D0069D254 /* ServiceManagement.framework */,
+				11B86E651EDE9BD00069D254 /* DFRFoundation.framework */,
+				4C2CE39171FE86ACB7F6C386 /* libPods-Remute.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D4763251F0562F2005E8DB0 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				5D47631F1F0562E6005E8DB0 /* tray-unactive-white@2x.png */,
+				5D4763201F0562E6005E8DB0 /* tray-unactive-black@2x.png */,
+				5D4763211F0562E6005E8DB0 /* tray-active@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		BB2B16BA4B399BED85E72BBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4B32D6C79EA22F8E2485919 /* Pods-Remute.debug.xcconfig */,
+				414578CF9911DD8725F6B4BA /* Pods-Remute.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B86E4C1EDE9B4D0069D254 /* Remute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B86E611EDE9B4D0069D254 /* Build configuration list for PBXNativeTarget "Remute" */;
+			buildPhases = (
+				5467F0654FBBEBD112DB4F0D /* [CP] Check Pods Manifest.lock */,
+				11B86E491EDE9B4D0069D254 /* Sources */,
+				11B86E4A1EDE9B4D0069D254 /* Frameworks */,
+				11B86E4B1EDE9B4D0069D254 /* Resources */,
+				11B86E941EDEAD980069D254 /* CopyFiles */,
+				578285B554E4673A0F3983C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remute;
+			productName = "Mute Me Now";
+			productReference = 11B86E4D1EDE9B4D0069D254 /* Remute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B86E451EDE9B4C0069D254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pixel Point";
+				TargetAttributes = {
+					11B86E4C1EDE9B4D0069D254 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 11B86E481EDE9B4C0069D254 /* Build configuration list for PBXProject "Remute" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 11B86E441EDE9B4C0069D254;
+			productRefGroup = 11B86E4E1EDE9B4D0069D254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B86E4C1EDE9B4D0069D254 /* Remute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B86E4B1EDE9B4D0069D254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4763241F0562E6005E8DB0 /* tray-active@2x.png in Resources */,
+				11B86E5A1EDE9B4D0069D254 /* Assets.xcassets in Resources */,
+				5D4763231F0562E6005E8DB0 /* tray-unactive-black@2x.png in Resources */,
+				5D4763221F0562E6005E8DB0 /* tray-unactive-white@2x.png in Resources */,
+				5DA60BDA1EFAB9270045BDCF /* statusBarIcon2.png in Resources */,
+				5DA60C551EFBC5D30045BDCF /* statusBarIcon.png in Resources */,
+				5DA60C531EFBC5400045BDCF /* statusBarIcon3.png in Resources */,
+				C6B6195A2167483F00F06C6B /* .gitignore in Resources */,
+				11B86E5D1EDE9B4D0069D254 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5467F0654FBBEBD112DB4F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Remute-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578285B554E4673A0F3983C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Remute/Pods-Remute-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MASShortcut/MASShortcut.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MASShortcut.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Remute/Pods-Remute-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B86E491EDE9B4D0069D254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1141FDF21EEFF6DD00CA5B30 /* TouchButton.m in Sources */,
+				11B86E581EDE9B4D0069D254 /* ViewController.m in Sources */,
+				11B86E551EDE9B4D0069D254 /* main.m in Sources */,
+				11B86E521EDE9B4D0069D254 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11B86E5B1EDE9B4D0069D254 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B86E5C1EDE9B4D0069D254 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B86E5F1EDE9B4D0069D254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11B86E601EDE9B4D0069D254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11B86E621EDE9B4D0069D254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B32D6C79EA22F8E2485919 /* Pods-Remute.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Remute/Remute.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MA98Q3DQ6F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = Remute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = imbios.remute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		11B86E631EDE9B4D0069D254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414578CF9911DD8725F6B4BA /* Pods-Remute.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Remute/Remute.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MA98Q3DQ6F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = Remute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = imbios.remute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B86E481EDE9B4C0069D254 /* Build configuration list for PBXProject "Remute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B86E5F1EDE9B4D0069D254 /* Debug */,
+				11B86E601EDE9B4D0069D254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B86E611EDE9B4D0069D254 /* Build configuration list for PBXNativeTarget "Remute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B86E621EDE9B4D0069D254 /* Debug */,
+				11B86E631EDE9B4D0069D254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B86E451EDE9B4C0069D254 /* Project object */;
+}
