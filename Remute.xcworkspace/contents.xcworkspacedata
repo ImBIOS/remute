@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Remute/Remute Launcher/Remute Launcher.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Remute.xcodeproj">
    </FileRef>
    <FileRef

@@ -15,6 +15,8 @@
 		11B86E5D1EDE9B4D0069D254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B86E5B1EDE9B4D0069D254 /* Main.storyboard */; };
 		11B86E661EDE9BD00069D254 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B86E651EDE9BD00069D254 /* DFRFoundation.framework */; };
 		11B86E981EDEC6720069D254 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B86E921EDEAD1D0069D254 /* ServiceManagement.framework */; };
+		1CB5EC5729E1A45D0067EF5C /* Remute Launcher.app in Resources */ = {isa = PBXBuildFile; fileRef = 1CB5EC5629E19F1B0067EF5C /* Remute Launcher.app */; };
+		1CB5EC5829E1A4A80067EF5C /* Remute Launcher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CB5EC5629E19F1B0067EF5C /* Remute Launcher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		242787BCE98FD2B43E32703E /* libPods-Remute.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2CE39171FE86ACB7F6C386 /* libPods-Remute.a */; };
 		5D4763221F0562E6005E8DB0 /* tray-unactive-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D47631F1F0562E6005E8DB0 /* tray-unactive-white@2x.png */; };
 		5D4763231F0562E6005E8DB0 /* tray-unactive-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D4763201F0562E6005E8DB0 /* tray-unactive-black@2x.png */; };
@@ -26,6 +28,16 @@
 		C6B6195A2167483F00F06C6B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C6B619592167483F00F06C6B /* .gitignore */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1CB5EC5529E19F1B0067EF5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CB5EC4129E19EAA0067EF5C /* Remute Launcher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 11B86E751EDEAC970069D254;
+			remoteInfo = "Remute Launcher";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		11B86E941EDEAD980069D254 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -33,6 +45,7 @@
 			dstPath = Contents/Library/LoginItems;
 			dstSubfolderSpec = 1;
 			files = (
+				1CB5EC5829E1A4A80067EF5C /* Remute Launcher.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +68,7 @@
 		11B86E671EDE9CDC0069D254 /* TouchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchBar.h; sourceTree = "<group>"; };
 		11B86E921EDEAD1D0069D254 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		11B86E9A1EDECB3F0069D254 /* Remute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Remute.entitlements; sourceTree = "<group>"; };
+		1CB5EC4129E19EAA0067EF5C /* Remute Launcher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Remute Launcher.xcodeproj"; path = "Remute/Remute Launcher/Remute Launcher.xcodeproj"; sourceTree = "<group>"; };
 		414578CF9911DD8725F6B4BA /* Pods-Remute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remute.release.xcconfig"; path = "Target Support Files/Pods-Remute/Pods-Remute.release.xcconfig"; sourceTree = "<group>"; };
 		4C2CE39171FE86ACB7F6C386 /* libPods-Remute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Remute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D47631F1F0562E6005E8DB0 /* tray-unactive-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tray-unactive-white@2x.png"; sourceTree = "<group>"; };
@@ -94,6 +108,7 @@
 				11B86E4F1EDE9B4D0069D254 /* Remute */,
 				11B86E4E1EDE9B4D0069D254 /* Products */,
 				11B86E641EDE9BD00069D254 /* Frameworks */,
+				1CB5EC4129E19EAA0067EF5C /* Remute Launcher.xcodeproj */,
 				BB2B16BA4B399BED85E72BBE /* Pods */,
 			);
 			sourceTree = "<group>";
@@ -147,6 +162,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1CB5EC5229E19F1B0067EF5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CB5EC5629E19F1B0067EF5C /* Remute Launcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5D4763251F0562F2005E8DB0 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,7 +220,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				ORGANIZATIONNAME = "Pixel Point";
+				ORGANIZATIONNAME = "Imamuzzaki Abu Salam";
 				TargetAttributes = {
 					11B86E4C1EDE9B4D0069D254 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -221,12 +244,28 @@
 			mainGroup = 11B86E441EDE9B4C0069D254;
 			productRefGroup = 11B86E4E1EDE9B4D0069D254 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1CB5EC5229E19F1B0067EF5C /* Products */;
+					ProjectRef = 1CB5EC4129E19EAA0067EF5C /* Remute Launcher.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				11B86E4C1EDE9B4D0069D254 /* Remute */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1CB5EC5629E19F1B0067EF5C /* Remute Launcher.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Remute Launcher.app";
+			remoteRef = 1CB5EC5529E19F1B0067EF5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		11B86E4B1EDE9B4D0069D254 /* Resources */ = {
@@ -235,6 +274,7 @@
 			files = (
 				5D4763241F0562E6005E8DB0 /* tray-active@2x.png in Resources */,
 				11B86E5A1EDE9B4D0069D254 /* Assets.xcassets in Resources */,
+				1CB5EC5729E1A45D0067EF5C /* Remute Launcher.app in Resources */,
 				5D4763231F0562E6005E8DB0 /* tray-unactive-black@2x.png in Resources */,
 				5D4763221F0562E6005E8DB0 /* tray-unactive-white@2x.png in Resources */,
 				5DA60BDA1EFAB9270045BDCF /* statusBarIcon2.png in Resources */,
